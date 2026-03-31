@@ -14,7 +14,7 @@
  */
 
 // ── Configuration ─────────────────────────────────────────────
-define('GEMINI_API_KEY', 'AIzaSyAt0O_DZU5HCNhO1kR0-s4ek-r10pNvrqo');
+define('GEMINI_API_KEY', 'use your api key');
 define('GEMINI_MODEL',   'gemini-2.5-flash');
 define('GEMINI_API_URL', 'https://generativelanguage.googleapis.com/v1beta/models/' . GEMINI_MODEL . ':generateContent?key=' . GEMINI_API_KEY);
 
